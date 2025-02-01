@@ -205,7 +205,7 @@ small {
 
 .header {
   padding: 30px 15px;
-  background-color: #fff;
+  background: #fff;
 }
 
 .header .container {
@@ -254,6 +254,16 @@ nav {
   margin-left: auto;
 }
 
+.navbar-end li {
+  display: inline-block;
+}
+
+.navbar-end a {
+  text-decoration: none;
+  margin-left: 20px;
+}
+
+
 .navbar-item {
   flex-grow: 0;
   flex-shrink: 0;
@@ -294,6 +304,15 @@ img {
 
 /* 4. Module Styles
 ===================================*/
+
+.burger {
+  display: none;
+  font-size: 30px;
+  background: none;
+  border: none;
+  color: #332C2D;
+  cursor: pointer;
+}
 
 .hero-image {
   position: relative;
@@ -433,7 +452,7 @@ img {
 /* 5. Responsive Design
 ====================================================*/
 
-/*=======Mobile Views=====*/
+/*=======Mobile View=====*/
 
 @media screen and (max-width: 768) {
   h1 {
@@ -501,3 +520,14 @@ p#beneficiar {
   }
 }
 
+@media screen and (max-width: 768px) {
+  .navbar-end {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .burger {
+    display:  block;
+  }
+}
