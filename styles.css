@@ -204,54 +204,15 @@ small {
 ===================================*/
 
 .header {
-  padding: 30px 15px;
+  padding: 0px;
   background: #fff;
 }
 
-.header .container {
+.navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-}
-
-nav {
-  display: block;
-}
-
-.navbar {
-  padding: 1rem;
-  min-height: 3.25rem;
-  box-shadow: none;
-  margin-bottom: 20px;
-}
-
-.navbar .navbar-menu {
-  display: flex;
-  text-align: center;
-  padding: 1rem 0 2rem;
-}
-
-.navbar>.container {
-  display: flex;
-  min-height: 3.25rem;
-  width: 100%;
-}
-
-.navbar-menu {
-  display: none;
-  flex-grow: 1;
-  flex-shrink: 0;
-}
-
-.navbar-brand {
-  display: flex;
-  flex-shrink: 0;
-  min-height: 3.25rem;
-}
-
-.navbar-end {
-  justify-content: flex-end;
-  margin-left: auto;
+  padding: 10px 30px;
 }
 
 .navbar-end li {
@@ -304,6 +265,11 @@ img {
 
 /* 4. Module Styles
 ===================================*/
+
+.logo {
+  height: 100px;
+  margin: 10px 0;
+}
 
 .burger {
   display: none;
