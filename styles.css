@@ -497,13 +497,13 @@ p#beneficiar {
 
 /*=======Mobile=====*/
 
-@media screen and (min-width: 480) {
-  .header.navbar-brand {
-    height: 80px;
+@media screen and (max-width: 480px) {
+  .header .logo {
+    height: 50px;
   }
 }
 
-@media screen and (min-width: 480) {
+@media screen and (max-width: 480px) {
   h1 {
     font-size: 1.875rem;
     font-weight: 700;
