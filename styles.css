@@ -273,23 +273,21 @@ img {
 }
 
 .hero-image {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+  justify-content: center;
+  gap: 20px;
   position: relative;
+  width: 100%;
   max-width: 1920px;
-  height: 800px;
+  height: 60vh;
   background: url("/assets/images/hero-image.jpeg") no-repeat center center;
   background-size: cover;
 }
 
-.container-hero-image {
-  display: flex;
-  flex-direction: column;
-  justify-items: flex-start;
-  justify-content: center;
-  height: 100%;
-  padding: 0 30px;
-}
-
 .container-text {
+  margin-left: 30px;
   width: 700px;
   height: 400px;
   background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
@@ -299,8 +297,7 @@ img {
   padding: 20px 20px;
 }
 
-.container-text p {
-  margin: 0;  
+.container-text p {  
   line-height: 2;
   color: #efefef;
   letter-spacing: 0.1rem;
@@ -312,7 +309,7 @@ img {
 }
 
 .button.proiecte {
-  display: inline-block;
+  margin-left: 30px;  
   background-color: #E31E25;
   color: #fff;
   text-decoration: none;
