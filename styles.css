@@ -22,6 +22,7 @@ html {
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   text-size-adjust: 100%;
+  scroll-behavior: smooth;
 }
 
 *, *::before, *::after {
@@ -495,6 +496,12 @@ p#beneficiar {
 
 
 /*=======Mobile=====*/
+
+@media screen and (min-width: 480) {
+  .header.navbar-brand {
+    height: 80px;
+  }
+}
 
 @media screen and (min-width: 480) {
   h1 {
