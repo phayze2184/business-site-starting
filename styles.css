@@ -283,7 +283,7 @@ img {
   height: 60vh;
   min-width: 320px;
   max-width: 1920px;
-  background: url("https://github.com/phayze2184/business-site-starting/blob/main/assets/images/hero-image.jpeg") no-repeat center center;
+  background: url("../assets/images/hero-image.jpeg") no-repeat center center;
   background-size: cover;
 }
 
