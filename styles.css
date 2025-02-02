@@ -275,13 +275,15 @@ img {
 .hero-image {
   display: flex;
   flex-direction: column;
-  align-items:flex-start;
+  align-items: flex-start;
   justify-content: center;
   gap: 20px;
   position: relative;
   width: auto;
   height: 60vh;
-  background: url("/assets/images/hero-image.jpeg") no-repeat center center;
+  min-width: 320px;
+  max-width: 1920px;
+  background: url("./assets/images/hero-image.jpeg") no-repeat center center;
   background-size: cover;
 }
 
