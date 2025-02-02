@@ -280,7 +280,6 @@ img {
   gap: 20px;
   position: relative;
   width: auto;
-  max-width: 1920px;
   min-width: 700px;
   height: 60vh;
   background: url("/assets/images/hero-image.jpeg") no-repeat center center;
