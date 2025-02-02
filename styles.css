@@ -279,14 +279,16 @@ img {
   justify-content: center;
   gap: 20px;
   position: relative;
-  width: 100%;
+  width: auto;
   max-width: 1920px;
+  min-width: 700px;
   height: 60vh;
   background: url("/assets/images/hero-image.jpeg") no-repeat center center;
   background-size: cover;
 }
 
 .container-text {
+  display: flex;
   margin-left: 30px;
   width: 700px;
   height: 400px;
@@ -294,10 +296,13 @@ img {
   color: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-  padding: 20px 20px;
+  padding: 5px 20px;
 }
 
 .container-text p {  
+  align-items: center;
+  justify-content: center;
+  justify-items: center;
   line-height: 2;
   color: #efefef;
   letter-spacing: 0.1rem;
@@ -484,5 +489,11 @@ p#beneficiar {
 @media screen and (max-width: 768px) {
   .burger {
     display:  block;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .hero-image {
+    width: 700px;
   }
 }
