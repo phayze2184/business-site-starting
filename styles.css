@@ -279,7 +279,7 @@ small {
   margin-left: 30px;
   max-width: 700px;
   max-height: 400px;
-  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black */
+  background: rgba(0, 0, 0, 0.6); 
   color: white;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
@@ -539,16 +539,18 @@ p#beneficiar {
 
 @media (max-width: 768px) {
   .hero-image {
+    max-width: 80%;
     align-items: center; 
-    padding: 10px; 
+    padding: 15px; 
   }
 }
 
 @media (max-width: 768px) {
   .container-text {
-    margin-left: 0; 
-    max-width: 90%; 
-    padding: 10px; 
+    margin: 0px;
+    max-width: 70%; 
+    height: auto; 
+    padding: 15px; 
   }
 }
 
