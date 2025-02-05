@@ -631,3 +631,11 @@ p#beneficiar {
     width: 85%;
   }
 }
+
+@media (max-width: 1024px) {
+  .portofolio-grid {
+    grid-template-columns: 1fr; 
+    grid-template-rows: repeat(6, 1fr); 
+    width: 85%; 
+  }
+}
