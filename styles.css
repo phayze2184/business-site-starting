@@ -382,10 +382,17 @@ small {
   flex-direction: column;  
   justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .permits-logos {
-  margin-bottom: 60px;
+  display: flex;
+  width: 100%;
+  margin-bottom: 50px;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .permits-title {
@@ -627,6 +634,7 @@ p#beneficiar {
 
 @media (max-width: 1024px) {
   .services-grid {
+    margin: auto;
     grid-template-columns: 1fr; 
     width: 85%;
   }
@@ -634,7 +642,15 @@ p#beneficiar {
 
 @media (max-width: 1024px) {
   .portofolio-grid {
+    margin: auto;
     grid-template-columns: 1fr; 
     width: 85%; 
+  }
+}
+
+@media (max-width: 1024px) {
+  .permits {
+    margin: 15px, auto; 
+    justify-content: center;
   }
 }
