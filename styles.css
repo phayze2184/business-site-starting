@@ -595,6 +595,7 @@ p#beneficiar {
 @media (max-width: 768px) {
   .permits {
     margin-bottom: 30px; 
+    justify-content: center;
   }
 }
 
