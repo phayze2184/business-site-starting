@@ -533,6 +533,7 @@ p#beneficiar {
 @media screen and (max-width: 768px) {
   .burger {
     display:  block;
+    margin-right: 20px;
   }
 }
 
