@@ -266,7 +266,7 @@ small {
   justify-content: center;
   gap: 30px;
   width: 100%;
-  min-width: 500px;
+  min-width: 350px;
   max-width: 1920px;
   height: 80vh;
   background: url("assets/images/hero-image.jpeg") no-repeat center center;
